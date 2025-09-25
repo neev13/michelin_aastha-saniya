@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michelin • POS QR Proof (Slide‑Aligned v2)</title>
+<style>
+  :root{--blue:#004AAD; --navy:#00205B; --gold:#FFD54D; --slate:#5b6975; --bg:#F7FBFF; --green:#16a34a;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:var(--bg);color:#0b1420;line-height:1.55}
+  a{color:var(--blue);text-decoration:none}
+  header{position:sticky;top:0;background:#fff;border-bottom:1px solid #e6eef6;z-index:10}
+  .wrap{max-width:980px;margin:0 auto;padding:0 16px}
+  .top{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .brand{display:flex;align-items:center;gap:10px}
+  .badge{display:inline-block;background:#eef4ff;color:var(--blue);padding:6px 10px;border-radius:999px;font-size:12px}
+  .hero{background:linear-gradient(180deg,#fff,#f1f7ff);border-bottom:1px solid #e6eef6}
+  .hero .inner{display:grid;grid-template-columns:1fr;gap:18px;padding:22px 0}
+  h1{font-size:28px;margin:8px 0 4px;color:var(--navy)}
+  .subtitle{color:var(--slate)}
+  .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+  .btn{background:var(--blue);color:#fff;border:none;border-radius:12px;padding:12px 16px;font-weight:700}
+  .btn.secondary{background:#fff;color:var(--blue);border:2px solid var(--blue)}
+  .section-title{font-size:20px;margin:18px 0 8px;color:var(--blue);font-weight:800}
+  .grid{display:grid;grid-template-columns:1fr;gap:14px;margin:18px 0}
+  @media(min-width:880px){.grid{grid-template-columns:1fr 1fr}}
+  .card{background:#fff;border:1px solid #e6eef6;border-radius:16px;padding:16px;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+  .card h3{margin:0 0 6px;color:var(--navy);display:flex;align-items:center;gap:8px}
+  .icon{width:22px;height:22px}
+  .row{display:grid;grid-template-columns:1fr;gap:12px}
+  @media(min-width:700px){.row{grid-template-columns:1fr 1fr}}
+  label{font-size:13px;color:#334155}
+  input{width:100%;padding:10px;border:1px solid #dbe5f2;border-radius:10px}
+  .result{background:#f7fff8;border:1px solid #c7f0d5;padding:12px;border-radius:12px;margin-top:10px}
+  footer{padding:22px 0;text-align:center;border-top:1px solid #e6eef6;color:#6b7b88;font-size:12px;margin-top:22px}
+  .mini{font-size:12px;color:#475569;margin-top:6px}
+  .script-box{margin-top:10px;border:1px dashed #cfe0ff;background:#ffffff;border-radius:12px;padding:12px}
+  .script-title{font-size:12px;color:#334155;margin:0 0 6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap top">
+    <div class="brand">
+      <div style="width:36px;height:36px;border-radius:50%;background:var(--navy)"></div>
+      <strong>Michelin</strong>
+      <span class="badge">POS • QR Proof Engine</span>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <a class="btn secondary" href="https://www.michelin.in/auto/manufacturers" target="_blank" rel="noopener">TyreMatch (India)</a>
+      <a class="btn secondary" href="https://www.michelin.in/find-your-dealer" target="_blank" rel="noopener">Locate a Dealer</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap inner">
+    <div>
+      <h1>Why Michelin? Proof in under a minute.</h1>
+      <p class="subtitle">This page mirrors your slide: the 6 pillars + calculators + direct TyreMatch & Dealer Locator links.</p>
+      <div class="cta">
+        <a class="btn" href="#pillars">See Slide Pillars</a>
+        <a class="btn secondary" href="#impact">See Real Impact</a>
+      </div>
+      <div class="mini">Slide mapping: 1) Gateway • 2) Safety • 3) Mileage • 4) Testimonials • 5) Money+Sustain • 6) TyreMatch</div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <h2 id="pillars" class="section-title">The 6 Pillars (Slide‑Aligned)</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#004AAD" stroke-width="2"/></svg>
+        1) Gateway to Proof & Trust
+      </h3>
+      <p>Opens a fast mobile page with Michelin’s value story, independent of dealer bias.</p>
+      <!-- Certified Script 15s -->
+      <div class="script-box">
+        <p class="script-title">Certified Script (15s)</p>
+        <p style="margin:0;font-size:14px;color:#0f172a">
+          “Scan the QR to see Michelin’s <b>rain‑braking test</b> and your <b>savings per kilometre</b>. That’s why families pick Michelin.”
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 18h16M6 14h12M8 10h8M10 6h4" stroke="#004AAD" stroke-width="2" stroke-linecap="round"/></svg>
+        2) Safety: Shorter Braking Distance
+      </h3>
+      <p>Wet‑road cues & certified tests. Every metre matters in Indian monsoon.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M3 12h18M3 16h12M3 8h8" stroke="#00205B" stroke-width="2"/></svg>
+        3) Mileage & Everyday Value
+      </h3>
+      <p>₹/km framing shows longer life as monthly savings that feel real.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M5 12l4 4L19 6" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/></svg>
+        4) Testimonials for Credibility
+      </h3>
+      <p>Short dealer & consumer quotes; “school‑run safety” proof points.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 2v20M2 12h20" stroke="#FFD54D" stroke-width="2"/></svg>
+        5) Monetary Benefit & Sustainability
+      </h3>
+      <p>Fewer tyres discarded, lower fuel use → app shows eco badges earned.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h10M4 17h8" stroke="#004AAD" stroke-width="2"/></svg>
+        6) Seamless TyreMatch Integration
+      </h3>
+      <p>Enter car model → recommended Michelin fits + nearest Certified Advisor with stock/EMI.</p>
+    </div>
+  </div>
+
+  <h2 id="impact" class="section-title">Real Impact (Interactive)</h2>
+  <div class="row">
+    <section class="card">
+      <h3>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M3 12h18M3 16h12M3 8h8" stroke="#00205B" stroke-width="2"/></svg>
+        ₹/km Savings Calculator
+      </h3>
+      <label>Annual kms</label><input id="kms" type="number" value="15000">
+      <label>Ordinary tyre life (km)</label><input id="lifeOrd" type="number" value="40000">
+      <label>Michelin tyre life (km)</label><input id="lifeMic" type="number" value="48000">
+      <label>Ordinary set price (₹)</label><input id="priceOrd" type="number" value="28000">
+      <label>Michelin set price (₹)</label><input id="priceMic" type="number" value="40000">
+      <div class="result" id="saveBox">Calculating…</div>
+    </section>
+
+    <section class="card">
+      <h3>
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 2v20M2 12h20" stroke="#16a34a" stroke-width="2"/></svg>
+        Eco Impact: CO₂ & Waste
+      </h3>
+      <label>CO₂ saved per 10,000 km (kg)</label><input id="co2perk" type="number" value="18">
+      <label>Years</label><input id="years" type="number" value="4">
+      <div class="result" id="ecoBox">Calculating…</div>
+    </section>
+  </div>
+
+  <!-- CTA block with Dealer Locator -->
+  <section class="card" style="margin-top:14px;text-align:center">
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="btn" href="https://www.michelin.in/auto/manufacturers" target="_blank">Find Your Perfect Tyre</a>
+      <a class="btn secondary" href="https://www.michelin.in/find-your-dealer" target="_blank">Locate a Michelin Dealer</a>
+    </div>
+    <p class="mini" style="margin-top:8px">Direct links to TyreMatch & Dealer Locator (India) to match your slide CTA.</p>
+  </section>
+</main>
+
+<footer>Slide‑aligned interactive preview for case demonstration only.</footer>
+
+<script>
+function fnum(n){return new Intl.NumberFormat('en-IN').format(Math.round(n));}
+function compute(){
+  const kms = parseFloat(document.getElementById('kms').value||0);
+  const lifeO = parseFloat(document.getElementById('lifeOrd').value||1);
+  const lifeM = parseFloat(document.getElementById('lifeMic').value||1);
+  const pO = parseFloat(document.getElementById('priceOrd').value||0);
+  const pM = parseFloat(document.getElementById('priceMic').value||0);
+  const setsO = kms/lifeO, setsM = kms/lifeM;
+  const costO = setsO*pO, costM = setsM*pM;
+  const diff = costO - costM;
+  const rpkO = pO/lifeO, rpkM = pM/lifeM;
+  document.getElementById('saveBox').innerHTML = `<b>Cost per km</b><br>Ordinary: ₹${rpkO.toFixed(2)} | Michelin: ₹${rpkM.toFixed(2)}<br><br><b>One‑year total</b><br>Ordinary: ₹${fnum(costO)} | Michelin: ₹${fnum(costM)}<div style="margin-top:8px">≈ <b>₹${fnum(diff)}</b> saved in a year (from longer life alone)</div>`;
+  const co2perk = parseFloat(document.getElementById('co2perk').value||0);
+  const years = parseFloat(document.getElementById('years').value||1);
+  const co2Saved = (kms/10000)*co2perk*years;
+  const tyresAvoided = Math.max(0, (4*(kms/lifeO) - 4*(kms/lifeM)) * years);
+  document.getElementById('ecoBox').innerHTML = `<b>${fnum(co2Saved)} kg CO₂ avoided</b> over ${years} years<br>${tyresAvoided.toFixed(2)} tyres kept from landfill (longer life)`;
+}
+['kms','lifeOrd','lifeMic','priceOrd','priceMic','co2perk','years'].forEach(id=>{
+  document.addEventListener('input', (e)=>{ if(e.target && e.target.id===id){ compute(); } });});
+compute();
+</script>
+</body>
+</html>
